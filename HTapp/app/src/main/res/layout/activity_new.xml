@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/meu_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_descricao_new"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"/>
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meu_text_view"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@id/nome_usuario"
+        android:text="@string/nome"/>
+
+    <TextView
+        android:id="@id/nome_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meu_text_view"
+        android:layout_toRightOf="@id/nome"
+        android:layout_marginTop="36dp"
+        android:paddingLeft="10dp"
+        android:hint="Seu nome"
+        android:textSize="18dp"
+        />
+
+  <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/app_button_confirme"/>
+</RelativeLayout>
