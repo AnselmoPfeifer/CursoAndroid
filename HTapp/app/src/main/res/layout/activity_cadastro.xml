@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/meu_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_cadastro"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <TextView
+        android:id="@+id/cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/app_cadastro_nome"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/meu_text_view"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cadastro"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/app_cadastro_btn1"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:text="@string/app_cadastro_btn2"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/app_cadastro_btn3"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_concluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/app_cadastro_btn_concluir"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"/>
+</RelativeLayout>

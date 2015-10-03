@@ -2,8 +2,22 @@
     <string name="app_name">HTapp</string>
     <string name="app_descricao">High Tech Cursos</string>
     <string name="app_descricao_new">HIGH TECH</string>
+    <string name="btn1">BUTTON 1</string>
+    <string name="btn2">BUTTON 2</string>
+    <string name="btn3">BUTTON 3</string>
+
     <string name="nome">Nome:</string>
+    <string name="login">LOGIN:</string>
+    <string name="senha">SENHA:</string>
+    <string name="btn_entrar">ENTRAR:</string>
     <string name="app_button_confirme">CONNFIRMAR</string>
+    <string name="app_cadastro">CADASTRO</string>
+    <string name="app_cadastro_nome">PLATAFORMA</string>
+    <string name="app_cadastro_btn1">HANGOUT</string>
+    <string name="app_cadastro_btn2">NETFLIX</string>
+    <string name="app_cadastro_btn3">FACEBOOK</string>
+    <string name="app_cadastro_btn_concluir">CONCLUIR</string>
 
 
 </resources>
+

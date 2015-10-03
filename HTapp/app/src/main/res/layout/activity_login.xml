@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/meu_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_descricao_new"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/senha"
+        android:layout_alignLeft="@id/senha"
+        android:layout_alignRight="@id/senha"
+        android:textSize="24sp"
+        android:text="@string/login"/>
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:text="@string/senha"/>
+
+   <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/senha"
+       android:layout_alignLeft="@id/senha"
+       android:layout_alignRight="@id/senha"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/btn_entrar"
+       android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
