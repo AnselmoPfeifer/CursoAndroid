@@ -18,6 +18,9 @@
     <string name="app_cadastro_btn3">FACEBOOK</string>
     <string name="app_cadastro_btn_concluir">CONCLUIR</string>
 
+    <!-- Layout D-->
+    <string name="a">A</string>
+
 
 </resources>
 
