@@ -28,8 +28,12 @@
     <string name="g_text"></string>
 
     <!-- Layout D-->
-    <string name="a">A</string>
+    <string name="list_name">Lista de Nomes</string>
+    <string name="list_btn">Button</string>
 
 
+    <string name="grid">Grid</string>
+    <string name="grid_nome">Grid</string>
+    <string name="grid_btn">Button</string>
 </resources>
 

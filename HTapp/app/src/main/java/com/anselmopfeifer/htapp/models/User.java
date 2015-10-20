@@ -13,6 +13,7 @@ public class User implements Serializable {
     private String email;
     private String login;
     private String password;
+    private int image;
 
     public Long getId() {
         return id;
@@ -22,28 +23,12 @@ public class User implements Serializable {
         this.id = id;
     }
 
-    public String getPassword() {
-        return password;
+    public String getNome() {
+        return nome;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public Integer getIdade() {
@@ -54,11 +39,35 @@ public class User implements Serializable {
         this.idade = idade;
     }
 
-    public String getNome() {
-        return nome;
+    public String getEmail() {
+        return email;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
     }
 }
