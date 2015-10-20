@@ -41,7 +41,7 @@
         android:layout_alignLeft="@+id/login_senha"
         android:layout_alignRight="@+id/login_senha"
         android:textSize="24sp"
-        android:text="@string/login"/>
+        android:hint="@string/login"/>
 
     <EditText
         android:id="@+id/login_senha"
@@ -54,7 +54,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
-        android:text="@string/senha"/>
+        android:hint="@string/senha"/>
 
     <Button
         android:id="@+id/login_btn1"

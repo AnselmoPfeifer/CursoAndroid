@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/g_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/g_app_descricao"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/g_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:text="@string/g_text"/>
+
+    <Button
+        android:id="@+id/g_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/g_text"
+        android:layout_alignRight="@+id/g_text"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/g_acessar"
+        android:background="@android:color/holo_green_dark"
+        android:textSize="20dp"/>
+
+
+
+</RelativeLayout>
