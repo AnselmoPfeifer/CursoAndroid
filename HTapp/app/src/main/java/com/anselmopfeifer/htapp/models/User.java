@@ -1,25 +1,43 @@
 package com.anselmopfeifer.htapp.models;
 
 import java.io.Serializable;
+import java.util.List;
+
+import se.emilsjolander.sprinkles.Model;
+import se.emilsjolander.sprinkles.Query;
+import se.emilsjolander.sprinkles.annotations.AutoIncrement;
+import se.emilsjolander.sprinkles.annotations.Column;
+import se.emilsjolander.sprinkles.annotations.Key;
+import se.emilsjolander.sprinkles.annotations.Table;
 
 /**
  * Created by Anselmo on 12/10/2015.
  */
-public class User implements Serializable {
+@Table("user")
+public class User extends Model implements Serializable {
 
-    private Long id;
+    @Key
+    @AutoIncrement
+    @Column("id")
+    private long id;
+    @Column("name")
     private String nome;
+
     private Integer idade;
+    @Column("email")
     private String email;
+
     private String login;
+
     private String password;
+
     private int image;
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -69,5 +87,9 @@ public class User implements Serializable {
 
     public void setImage(int image) {
         this.image = image;
+    }
+
+    public static List<User> getAllUser(){
+        return Query.all(User.class).get().asList();
     }
 }

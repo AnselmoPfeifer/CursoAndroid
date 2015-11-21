@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cabecalho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Tarefas"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título:"
+        android:layout_above="@+id/tarefa"
+        android:textSize="28dp"/>
+
+
+    <EditText
+        android:id="@+id/tarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:layout_centerInParent="true"
+        android:hint="Tarefa:"/>
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tarefa">
+        <RadioButton
+            android:id="@+id/completa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completa"/>
+        <RadioButton
+            android:id="@+id/incompleta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incompleta"
+            android:checked="true"/>
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_dark"
+        />
+
+</RelativeLayout>

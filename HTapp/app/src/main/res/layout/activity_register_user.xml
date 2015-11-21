@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/register_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_email"
+        android:textSize="28sp"
+        android:hint="@string/register_nome"/>
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:textSize="28sp"
+        android:hint="@string/register_email"/>
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastro_email"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/register_btn"
+        android:background="@android:color/holo_green_dark"
+        android:textSize="20dp"/>
+</RelativeLayout>

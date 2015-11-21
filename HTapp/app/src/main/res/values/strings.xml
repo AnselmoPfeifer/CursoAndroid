@@ -35,5 +35,14 @@
     <string name="grid">Grid</string>
     <string name="grid_nome">Grid</string>
     <string name="grid_btn">Button</string>
+
+    <string name="register">Registro Usuarios</string>
+    <string name="register_nome">Seu Nome</string>
+    <string name="register_email">Seu Email</string>
+    <string name="register_idade">Idade</string>
+    <string name="register_btn">Cadastrar</string>
+
+    <string name="user_list_btn">Voltar</string>
 </resources>
+
 
